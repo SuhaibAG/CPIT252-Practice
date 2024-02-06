@@ -1,6 +1,6 @@
 package Builderdemo;
 
-public class SmallNonVegPiza extends NonVegPizza{
+public class SmallNonVegPizza extends NonVegPizza{
     @Override
     public int price(){
         return 180;
