@@ -1,9 +1,5 @@
 package bridgepatterndemo1;
 
-import bridgepatterndemo.Bulb;
-import bridgepatterndemo.Fan;
-import bridgepatterndemo.Switch;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -40,8 +36,8 @@ public class bridgePatternDemo {
             }
             break;
             case 3: {
-                obj2.area();
-                obj2.volume();
+                obj3.area();
+                obj3.volume();
             }
             break;
             default: {
