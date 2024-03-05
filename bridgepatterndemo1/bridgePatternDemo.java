@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 
 public class bridgePatternDemo {
     static int choice;
+
     public static void main(String[] args) throws IOException {
     Shape obj1 = new Circle();
     Shape obj2 = new Rectangle();
