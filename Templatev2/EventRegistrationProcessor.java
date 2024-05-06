@@ -7,7 +7,7 @@ public class EventRegistrationProcessor extends RegistrationProcessor{
     }
 
     @Override
-    boolean validateData() {
+    protected boolean validateData() {
         System.out.println("Validating Data");
         return true;
     }

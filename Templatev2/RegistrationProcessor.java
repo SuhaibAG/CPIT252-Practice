@@ -13,7 +13,7 @@ public abstract class RegistrationProcessor {
         }
     }
     abstract void collectData();
-    abstract boolean validateData();
+    protected abstract boolean validateData();
     abstract void register();
 
 
